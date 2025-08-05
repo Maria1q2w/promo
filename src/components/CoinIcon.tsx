@@ -1,0 +1,29 @@
+export const CoinIcon = () => (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="24" height="24" rx="12" fill="#7065EF" />
+        <rect width="24" height="24" rx="12" fill="url(#paint0_radial_529_238)" />
+        <rect width="24" height="24" rx="12" fill="url(#paint1_radial_529_238)" />
+        <rect width="24" height="24" rx="12" fill="url(#paint2_radial_529_238)" />
+        <rect width="24" height="24" rx="12" fill="url(#paint3_radial_529_238)" />
+        <rect x="1.2" y="1.2" width="21.6" height="21.6" rx="10.8" stroke="white" stroke-opacity="0.3" stroke-width="2.4" />
+        <path d="M11.6582 6.29456C11.7783 5.97086 12.2362 5.97098 12.3564 6.29456C13.2743 8.77503 15.2305 10.7312 17.7109 11.649C18.0352 11.769 18.0351 12.2273 17.7109 12.3473C15.2304 13.2652 13.2743 15.2213 12.3564 17.7018C12.2364 18.026 11.7782 18.026 11.6582 17.7018C10.7403 15.2213 8.78419 13.2651 6.30371 12.3473C5.98014 12.227 5.98001 11.7692 6.30371 11.649C8.78423 10.7312 10.7403 8.77507 11.6582 6.29456Z" fill="white" fill-opacity="0.8" stroke="white" stroke-width="2.4" />
+        <defs>
+            <radialGradient id="paint0_radial_529_238" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(22.4211 3.47368) rotate(137.099) scale(42.6783 26.1296)">
+                <stop stop-color="#3221F3" />
+                <stop offset="0.44252" stop-color="#3221F3" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint1_radial_529_238" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.5789 21.4737) rotate(-140.812) scale(37.4833 22.949)">
+                <stop stop-color="#20E4FF" />
+                <stop offset="0.44252" stop-color="#20E4FF" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint2_radial_529_238" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(0.947368 17.0526) rotate(-173.157) scale(31.8055 19.4728)">
+                <stop stop-color="#ED20FF" />
+                <stop offset="0.44252" stop-color="#ED20FF" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint3_radial_529_238" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(6.94737 5.05263) rotate(-120.444) scale(41.7571 25.5656)">
+                <stop stop-color="#20E4FF" />
+                <stop offset="0.44252" stop-color="#20E4FF" stop-opacity="0" />
+            </radialGradient>
+        </defs>
+    </svg>
+)
