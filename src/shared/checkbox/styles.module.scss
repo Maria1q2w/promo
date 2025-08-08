@@ -1,0 +1,41 @@
+.checkbox {
+    display: flex;
+    gap: 8px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+
+.input {
+    display: none;
+}
+
+.circle {
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 99px;
+    border: 2px solid #EBEBF0;
+}
+
+.input:checked + .circle {
+    box-sizing: border-box;
+    border: 5px solid #107FD1;
+}
+
+.square {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #999;
+    border-radius: 2px;
+    position: relative;
+}
+
+.input:checked + .square::after {
+    content: '✓';
+    position: absolute;
+    top: -3px;
+    left: 2px;
+    font-size: 14px;
+    color: #107FD1;
+}

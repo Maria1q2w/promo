@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-        "target": "es6",
+    "target": "es6",
     "lib": [
       "esnext",
       "dom",
@@ -10,7 +10,7 @@
     "jsxFactory": "h",
     "jsxFragmentFactory": "Fragment", 
     "jsxImportSource": "vue",
- 
+
     "module": "esnext",
     "moduleResolution": "node", 
     "baseUrl": "./src",

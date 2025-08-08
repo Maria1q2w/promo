@@ -1,0 +1,36 @@
+.step {
+    width: 516px;
+    height: 591px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.actions {
+    width: 468px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    width: 228px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    background: var(--Surface-Surface---3, #F2F1F6);
+    color: black;
+}
+
+.next {
+    background: var(--Main-Accent-secondary, #05263F);
+    color: #fff;
+}
+

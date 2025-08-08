@@ -1,29 +1,28 @@
-import { MyForm } from './components';
-//import { useState } from './utils';
-import { defineComponent } from 'vue';
+import { useState } from './utils';
+import { Header, Step1, Step2 } from './components';
+import { computed, defineComponent } from 'vue';
 import { Form, useForm } from 'vee-validate';
-//import { Field } from 'vee-validate';
-
+import { FormSchema, StepKeys } from './types';
 
 export const App = defineComponent(
   () => {
-
-    //const [age, setAge] = useState(0);
-
-    // const handleCount = () => {
-    //   console.log('click')
-    //   setAge(age.value + 1);
-    // }
+    const { handleSubmit } = useForm<FormSchema>();
+    const [currentStep, setCurrentStep] = useState<StepKeys>('Step1');
+    
+    const CurrentStepComponent = computed(() => (currentStep.value === 'Step1' ? Step1 : Step2));
+    const onSubmit = (form: FormSchema) => {
+      console.log('✅ submitted:', form);
+    };
 
     return () => (
-      <div>
-        <MyForm />
-        {/* <div style="margin-bottom: 80px;">
-        <button disabled={!age.value} onClick={() => setAge(0)}>Сбросить</button>
-        </div> */}
-      </div>
+      <>
+        <Header currentStep={currentStep.value} />
 
-    );
+        <Form onSubmit={(e) => handleSubmit(onSubmit)(e as Event)}>
+          <CurrentStepComponent.value onChangeStep={setCurrentStep}/>
+        </Form>
+      </>
+    )
   },
   { name: 'App' }
 );

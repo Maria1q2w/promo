@@ -1,0 +1,52 @@
+.container {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-align: left;
+    display: block;
+    padding-bottom: 20px;
+}
+.wrapper {
+    position: relative;
+    padding-top: 6px;
+}
+
+.input {
+    width: 468px;
+    padding-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: black;
+    font-family: Inter;
+    font-weight: 400;
+    background-color: #F5F5F5;
+}
+
+.input_last {
+    padding-left: 45px;
+}
+
+.icon {
+    position: absolute;  
+    top: 18px; 
+    left: 10px; 
+}
+
+.error {
+    position: absolute;
+    color: red;
+}
+
+.star {
+    color: red;
+}
+
+.errorBorder {
+    border-color: red;
+}

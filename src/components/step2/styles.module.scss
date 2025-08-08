@@ -1,0 +1,89 @@
+.formCard {
+    width: 516px;
+    height: 591px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 516px;
+    height: 544px;
+    padding: 24px;
+    background-color: #fff;
+    border-radius: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-align: left;
+    display: block;
+    padding-bottom: 12px;
+}
+
+.star {
+    color: red;
+}
+
+.dates {
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+    padding-bottom: 8px;
+}
+
+.dateTitle {
+    color: #797979;
+    display: block;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.block {
+    display: flex;
+    margin-top: 8px;
+}
+
+.checkbox {
+    padding-bottom: 20px;
+}
+
+.line {
+    border-bottom: 1px solid #EBEBF0;
+    background: var(--Stroke-Stroke-1, #EBEBF0);
+    margin-bottom: 20px;
+}
+
+.getPromo {
+    padding-bottom: 20px;
+}
+
+.radiolist {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar {
+    max-width: 140px;
+}
+
+.time {
+    max-width: 80px;
+}
